@@ -6,21 +6,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <title>assignment-3x</title>
 </head>
 <body>
-    <div class="container row">
-        <form action="#">
-            <h1>General information</h1>
-            <div class="general-inf col-2">
-                <div class="user-input-box">
+    <div>
+        <form action="#" class="container">
+            <div class="general-inf box-style padding">
+                <h1>General information</h1>
+                <div class="user-input-box flex">
                     <label for="first name">First name</label>
-                    <input type="text" id="first name" placeholder="First name" name="first name" required>
-                </div>
-                <div class="user-input-box">
+                    <input type="text" class="mg" id="first name" placeholder="First name" name="first name" required>
                     <label for="last name">Last name</label>
                     <input type="text" id="last name" placeholder="Last name" name="last name">
                 </div>
+                <!-- <div class="user-input-box">
+                </div> -->
                 <div class="user-input-box">
                     <label for="email">Email</label>
                     <input type="text" id="email" placeholder="Email" name="email" required>
@@ -49,21 +50,19 @@
                 </div>
             </div>
 
-            <div class="Contact-details col-2">
+            <div class="Contact-details box-style padding">
                 <h1>Contact Details</h1>
                 <div class="user-input-box">
                     <label for="street">Street</label>
                     <input type="text" id="street" name="street" placeholder="Street">
                 </div>
                 <div class="user-input-box">
-                    <label for="extra">Additional information</label>
+                    <label for="extra">Additional information</label>       
                     <input type="text" id="extra" name="extra" placeholder="Additional information">
                 </div>
-                <div class="user-input-box">
+                <div class="user-input-box flex">
                     <label for="zipcode">Zip code</label>
-                    <input type="text" id="zipcode" name="zipcode" placeholder="Zipcode">
-                </div>
-                <div class="user-input-box">
+                    <input type="text" class="mg" id="zipcode" name="zipcode" placeholder="Zipcode">
                     <label for="Place">Place</label>
                     <select name="place" id="place">
                         <option value="place">Select a place</option>
@@ -78,6 +77,8 @@
                         <option value="place">Sankt-Peterburg</option>
                     </select>
                 </div>
+                <!-- <div class="user-input-box">
+                </div> -->
                 <div class="user-input-box">
                     <label for="Place">Country</label>
                     <select name="place" id="place">
@@ -99,7 +100,7 @@
                 </div>
                 <div class="user-input-box">
                     <label for="Phone Number">Phone Number</label>
-                    <input type="text" id="Phone Number" name="Phone Number" placeholder="Phone Number">
+                    <input type="number" id="Phone Number" name="Phone Number" placeholder="Phone Number">
                 </div>
                 <div class="user-input-box">
                     <div class="part">
@@ -108,7 +109,7 @@
                     </div>
                 </div>
                 <div class="btn">
-                    <button type="submit" form="form1" value="Submit"> Register Badge</button>
+                    <button class="btn-s" type="submit" form="form1" value="Submit"> Register Badge</button>
                 </div>
             </div>
         </form>

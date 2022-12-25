@@ -5,13 +5,94 @@
 }
 body{
     background: rgba(137, 176, 223);
+    max-height: 100vh;
+    font-family: 'Roboto', sans-serif;
+    /* letter-spacing: 2px; */
 }
-.row{
-    display: flex;
-}
-.col-2{
-    width: calc(100%/2 - 40px);
+.padding{
+    padding: 3rem;
 }
 .container{
-    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+    flex-wrap: wrap;
 }
+
+.general-inf{
+    background-color: white;
+    gap: 20px;
+    width: 40%;
+    border-radius: 10px 0 0 10px;
+}
+
+.Contact-details{
+    background-color: rgb(42, 42, 133);
+    color: white;
+    gap:20px;
+    width: 40%;
+    border-radius: 0 10px 10px 0;
+}
+label{
+    display: none;
+}
+input, select{
+    border: 0px solid;
+    border-bottom: 1px solid lightgray;
+    height: 20px;
+    width: 100%;
+    background-color: transparent;
+    font-size: 1rem;
+}
+.box-style{
+    display: flex;
+    flex-direction: column;
+    height: 600px;
+    flex-wrap: wrap;
+    gap: 30px;
+    flex-basis: 450px;
+    /* flex:  1 450px; */
+    /* border-radius: 10px; */
+}
+.flex{
+    display: flex;
+    justify-content: space-between
+}
+.general-inf h1{
+    color: rgb(42, 42, 133);
+}
+.mg{
+    margin-right: 25px;
+}
+.Contact-details ::placeholder{
+    color: white;
+}
+ 
+.Contact-details input, textarea{
+    color: white;
+}
+.Contact-details select{
+    color: white;
+}
+.user-input-box select option{
+    color: black;
+}
+.part{
+    display: flex;
+    justify-content: flex-start;
+}
+.part input{
+    width: 7%;
+    margin-right: 5px;
+}
+.btn-s{
+    padding: 10px;
+    border-radius: 50px;
+    box-shadow:  2px 2px 2px 1px rgba(160, 156, 156, 0.2);
+}
+
+::placeholder{
+    padding-left: 5px;
+}
+
