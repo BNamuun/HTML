@@ -13,11 +13,11 @@ https://bnamuun.github.io/HTML/Transition/hover_transition/index.html
 https://bnamuun.github.io/HTML/Form/simple_form/index.html
 https://bnamuun.github.io/HTML/Form/Survey_form/index.html
 
-#Responsive
+# Responsive
 https://bnamuun.github.io/HTML/Responsive/gallery/index.html
 https://bnamuun.github.io/HTML/Responsive/breakPoints/index.html
 https://bnamuun.github.io/HTML/Responsive/PhotoNewsList/index.html
 
-#Bootstrap
+# Bootstrap
 https://bnamuun.github.io/HTML/bootstrap/navBar/
 https://bnamuun.github.io/HTML/bootstrap/logInForm/index.html
