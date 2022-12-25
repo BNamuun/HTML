@@ -1,0 +1,57 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    height: 100vh;
+}
+.row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    position: relative;
+    height: 100px;
+    width: 300px;
+
+}
+.can{
+    border: 1px solid rgb(216, 204, 204);
+    padding: 15px 50px;
+    font-size: 2.3rem;
+    font-weight: bold;
+    color: white;
+    background-color: rgb(216, 204, 204);
+    position: absolute;
+    transition-property: background-color;
+    transition-duration: 2s;
+    transition-delay: 1s;
+    z-index: 5;
+}
+
+.box::after{
+    content: "3";
+    font-size: 1.3rem;
+    border: 2px solid red;
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    position: absolute;
+    padding: 8px 18px;
+    top: -25px;
+    right: -25px;
+    transition-property: top, right, z-index;
+    transition-duration: 2s, 1s, 1.5s; 
+    transition-delay: 1.5s, 1.5s, 1s;
+    z-index: 10;
+}
+.can:hover{
+    background-color: red;
+}
+.box:hover::after{
+    top: 15px;
+    right: 130px;
+    z-index: 0;
+} 

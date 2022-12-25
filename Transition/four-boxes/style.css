@@ -1,0 +1,119 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 700px;
+    height: 700px;
+    outline: solid black 1px;
+    position: relative;
+}
+body{
+    height: 100vh;
+}
+.row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.box{
+    width: 150px;
+    height: 150px;
+    background-color: lightblue;
+}
+.box-cont{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.top-left{
+    background-color: yellow;
+    position: absolute;
+    overflow: none;
+    transition-delay: 2s, 2s;
+    transition-duration: 3s, 3s;
+    transition-property: top, left; 
+}
+.container:hover .top-left{
+    top: 0;
+    left: 0;
+}
+/* .box-over{
+    width: 150px;
+    height: 150px;
+    background-color: rgb(11, 29, 167);
+    position: absolute;
+
+} */
+.box-1{
+    width: 150px;
+    height: 150px;
+    background-color: rgb(11, 29, 167);
+    opacity: .5;
+    position: absolute;
+    top: 190px;
+    left: 190px;
+    transition-property: top, left, opacity;
+    transition-delay: 1s, 1s, 1s;
+    transition-duration: 2s, 2s, 2s;
+}
+.box-2{
+    width: 150px;
+    height: 150px;
+    background-color: rgb(11, 29, 167);
+    opacity: .5;
+    position: absolute;
+    top: 190px;
+    right: 190px;
+    transition-property: top, right, opacity;
+    transition-delay: 1s, 1s, 1s;
+    transition-duration: 2s, 2s, 2s;
+}
+.box-3{
+    width: 150px;
+    height: 150px;
+    background-color: rgb(11, 29, 167);
+    opacity: .5;
+    position: absolute;
+    bottom: 190px;
+    left: 190px;
+    transition-property: bottom, left, opacity;
+    transition-delay: 1s, 1s, 1s;
+    transition-duration: 2s, 2s, 2s;
+    
+}
+.box-4{
+    width: 150px;
+    height: 150px;
+    background-color: rgb(11, 29, 167);
+    opacity: .5;
+    position: absolute;
+    bottom: 190px;
+    right:  190px;
+    transition-property: bottom, right, opacity;
+    transition-delay: 1s, 1s, 1s;
+    transition-duration: 2s, 2s, 2s;
+}
+.container:hover .box-1{
+    top: 0;
+    left: 0;
+    opacity: 1;
+}
+.container:hover .box-2{
+    top: 0;
+    right: 0;
+    opacity: 1;
+}
+.container:hover .box-3{
+    bottom: 0;
+    left: 0;
+    opacity: 1;
+}
+.container:hover .box-4{
+    bottom: 0;
+    right: 0;
+    opacity: 1;
+}

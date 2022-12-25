@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>assignment-3x</title>
+</head>
+<body>
+    <div class="container row">
+        <form action="#">
+            <h1>General information</h1>
+            <div class="general-inf col-2">
+                <div class="user-input-box">
+                    <label for="first name">First name</label>
+                    <input type="text" id="first name" placeholder="First name" name="first name" required>
+                </div>
+                <div class="user-input-box">
+                    <label for="last name">Last name</label>
+                    <input type="text" id="last name" placeholder="Last name" name="last name">
+                </div>
+                <div class="user-input-box">
+                    <label for="email">Email</label>
+                    <input type="text" id="email" placeholder="Email" name="email" required>
+                </div>
+                <div class="user-input-box">
+                    <label for="date">Date</label>
+                    <input type="date" id="date" placeholder="yyyy.mm.dd" name="date">
+                </div>
+                <div class="user-input-box">
+                    <label for="company">Company</label>
+                    <input type="text" id="company" placeholder="Company" name="company" required>
+                </div>
+                <div class="select-btn">
+                    <!-- <span>Position</span>
+                    <i class="fa-sharp fa-solid fa-angle-down"></i> -->
+                    <label for="Position"> Position</label>
+                    <select name="Position" id="Position">
+                    <option value="Senior">Select a position</option>
+                    <option value="Senior">Senior developer</option>
+                    <option value="Junior">Junior developer</option>
+                    <option value="MOb-developer">Mobile developer</option>
+                    <option value="Full">Full stack developer</option>
+                    <option value="Front">Front-end developer</option>
+                    <option value="Bacik">Back-end developer</option>
+                     </select>
+                </div>
+            </div>
+
+            <div class="Contact-details col-2">
+                <h1>Contact Details</h1>
+                <div class="user-input-box">
+                    <label for="street">Street</label>
+                    <input type="text" id="street" name="street" placeholder="Street">
+                </div>
+                <div class="user-input-box">
+                    <label for="extra">Additional information</label>
+                    <input type="text" id="extra" name="extra" placeholder="Additional information">
+                </div>
+                <div class="user-input-box">
+                    <label for="zipcode">Zip code</label>
+                    <input type="text" id="zipcode" name="zipcode" placeholder="Zipcode">
+                </div>
+                <div class="user-input-box">
+                    <label for="Place">Place</label>
+                    <select name="place" id="place">
+                        <option value="place">Select a place</option>
+                        <option value="place">London</option>
+                        <option value="place">Los Angeles </option>
+                        <option value="place">Ulaanbaatar</option>
+                        <option value="place">Moscow</option>
+                        <option value="place">Paris</option>
+                        <option value="place">Helsinborg</option>
+                        <option value="place">Manchester</option>
+                        <option value="place">Santa Marta</option>
+                        <option value="place">Sankt-Peterburg</option>
+                    </select>
+                </div>
+                <div class="user-input-box">
+                    <label for="Place">Country</label>
+                    <select name="place" id="place">
+                        <option value="place">Select a country</option>
+                        <option value="place">Australia</option>
+                        <option value="place">Denmark</option>
+                        <option value="place">Colombia</option>
+                        <option value="place">Germany</option>
+                        <option value="place">Mongolia</option>
+                        <option value="place">Russia</option>
+                        <option value="place">England</option>
+                        <option value="place">Sweden</option>
+                        <option value="place">France</option>
+                    </select>
+                </div>
+                <div class="user-input-box">
+                    <label for="code">Code</label>
+                    <input type="text" id="code" name="code" placeholder="Code">
+                </div>
+                <div class="user-input-box">
+                    <label for="Phone Number">Phone Number</label>
+                    <input type="text" id="Phone Number" name="Phone Number" placeholder="Phone Number">
+                </div>
+                <div class="user-input-box">
+                    <div class="part">
+                        <input type="checkbox">
+                        <p>I do accept the <u>Terms and Conditions</u> of your site</p>
+                    </div>
+                </div>
+                <div class="btn">
+                    <button type="submit" form="form1" value="Submit"> Register Badge</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

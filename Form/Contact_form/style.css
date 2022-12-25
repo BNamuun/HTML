@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: rgba(137, 176, 223);
+}
+.row{
+    display: flex;
+}
+.col-2{
+    width: calc(100%/2 - 40px);
+}
+.container{
+    
+}

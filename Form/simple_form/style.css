@@ -1,0 +1,26 @@
+*{
+    box-sizing: border-box;
+}
+
+.flex-style{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    gap: 20px;
+    flex: 1 450px;
+}
+.padding{
+    margin: 5%;
+    padding: 5%;
+}
+.box{
+    border: 1px solid lightgrey;
+    border-radius: 15px;
+}
+.width{
+    width: 25vw;
+}
+label{
+    width:  150px;
+    display: inline-block;
+}
