@@ -12,6 +12,7 @@ https://bnamuun.github.io/HTML/Transition/hover_transition/index.html
 # HTML Form
 https://bnamuun.github.io/HTML/Form/simple_form/index.html
 https://bnamuun.github.io/HTML/Form/Survey_form/index.html
+https://bnamuun.github.io/HTML/Form/Contact_form/index.html
 
 # Responsive
 https://bnamuun.github.io/HTML/Responsive/gallery/index.html
