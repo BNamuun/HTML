@@ -22,3 +22,4 @@ https://bnamuun.github.io/HTML/Responsive/PhotoNewsList/index.html
 # Bootstrap
 https://bnamuun.github.io/HTML/bootstrap/navBar/
 https://bnamuun.github.io/HTML/bootstrap/logInForm/index.html
+https://bnamuun.github.io/HTML/bootstrap/layOutExer/index.html
